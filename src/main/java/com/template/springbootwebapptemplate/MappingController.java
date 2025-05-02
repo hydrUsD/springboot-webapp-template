@@ -1,14 +1,14 @@
-package com.template.demo;
+package com.template.springbootwebapptemplate;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
-public class HelloController {
+public class MappingController {
 
 @GetMapping("/")
-public String index(Model model) {
+public String thymeleaf(Model model) {
 	model.addAttribute("message", "Hello from Spring Boot!");
 	return "index"; // Thymeleaf will resolve to src/main/resources/templates/index.html
 }
