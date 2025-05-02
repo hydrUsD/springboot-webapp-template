@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: IntelliJ IDEA
+Built-By: paulheuwer
+Build-Jdk: Eclipse Temurin 17.0.15
+Implementation-Title: springboot-webapp-template
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.template
+Main-Class: ${start-class}
+

@@ -1,0 +1,19 @@
+// style.scss
+
+// Optional: Bootstrap integration (if you install it via npm)
+// @import "node_modules/bootstrap/scss/bootstrap";
+
+// Sample styles
+$primary-color: #4f46e5;
+
+body {
+  font-family: system-ui, sans-serif;
+  background-color: #f8fafc;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 2rem;
+  color: $primary-color;
+}
